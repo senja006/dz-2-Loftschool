@@ -1,0 +1,16 @@
+@import "retina-sprites";
+
+// @mixin s($name) {
+// 	background: sprite($sprite-images, $name);
+// 	height: image-height(sprite-file($sprite-images, $name));
+//  	width: image-width(sprite-file($sprite-images, $name));
+// }
+
+// $sprite-images: sprite-map("sprite-images/*.png", $spacing: 50px);
+
+// .item1 {
+// 	@include s(color-black);
+// 	&:hover {
+// 		@include s(color-gold);
+// 	}
+// }

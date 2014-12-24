@@ -1,0 +1,27 @@
+$icons: sprite-map("sprite-images/*.png", $spacing: 10px);
+$icons-2x: sprite-map("sprite-images-2x/*.png", $spacing: 10px);
+
+@mixin s($sprite) {
+    background-image: sprite-url($icons);
+    background-position: sprite-position($icons, $sprite);
+    background-repeat: no-repeat;
+    height: image-height(sprite-file($icons, $sprite));
+    width: image-width(sprite-file($icons, $sprite));
+
+    @media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (-webkit-min-device-pixel-ratio: 1.5),
+    only screen and (-moz-min-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 3/2),
+    only screen and (-o-min-device-pixel-ratio: 2/1),
+    only screen and (min--moz-device-pixel-ratio: 1.5),
+    only screen and (min-device-pixel-ratio: 1.5),
+    only screen and (min-device-pixel-ratio: 2), 
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+        background-image: sprite-url($icons-2x);
+        background-size: ceil((image-width(sprite-path($icons-2x)) / 2)) ceil((image-height(sprite-path($icons-2x)) / 2));
+        background-position: ceil(nth(sprite-position($icons-2x, $sprite + '-2x'), 1) / 2) ceil(nth(sprite-position($icons-2x, $sprite + '-2x'), 2) / 2);
+        height: ceil(image-height(sprite-file($icons-2x, $sprite + '-2x')) / 2) + 1;
+        width: ceil(image-width(sprite-file($icons-2x, $sprite + '-2x')) / 2) + 1;
+    }
+}
