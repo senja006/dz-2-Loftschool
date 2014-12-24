@@ -22,6 +22,9 @@
     font-weight: normal;
     font-style: normal;
 }
+html, body {
+	height: 100%;
+}
 body {
 	font-family: "ElektraLightPro";
 	font-size: 16px;
@@ -30,7 +33,11 @@ body {
 .page {
 	width: 100%;
 	min-height: 100%;
-	min-width: 1000px;
+	min-width: 1020px;
+	
+	position: relative;
+	box-sizing: border-box;
+	padding-bottom: 228px;
 }
 li {
 	list-style: none;
@@ -469,6 +476,119 @@ li {
 
 /* @end */
 
+/* @group footer */
+
+.footer {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 228px;
+	background: url(../../../images/design/bg-footer.png) repeat;
+}
+.footer__in {
+	position: relative;
+	height: 100%;
+	padding-top: 20px;
+	box-sizing: border-box;
+}
+.footer__right {
+	float: right;
+	height: 100%;
+	font-size: 0;
+	position: relative;
+	z-index: 2;
+}
+.footer__right:before, .footer__left:before, .footer__center:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+.footer__right-in, .footer__left-in, .footer__center-in {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 16px;
+}
+.footer__left {
+	float: left;
+	height: 100%;
+	font-size: 0;
+	position: relative;
+	z-index: 2;
+}
+.footer__center {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	height: 100%;
+	box-sizing: border-box;
+	left: 0;
+	text-align: center;
+	padding-top: 22px;
+}
+
+/* @end */
+
+/* @group menu cols */
+
+.menu-cols__ul {
+	display: inline-block;
+}
+.menu-cols__ul:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.menu-cols__li {
+	float: left;
+	text-align: left;
+	width: 162px;
+	box-sizing: border-box;
+	padding-right: 20px;
+}
+.menu-cols__title {
+	color: #FFF;
+	font-size: 15px;
+	font-family: "ElektraLightPro-Medium";
+	display: block;
+	margin-bottom: 8px;
+}
+.menu-cols__sub-a {
+	color: #FFF;
+	font-size: 15px;
+	text-decoration: underline;
+	display: inline-block;
+	margin-bottom: 9px;
+}
+.menu-cols__sub-a:hover {
+	text-decoration: none;
+}
+
+/* @end */
+
+
+/* @group apps */
+
+.footer .apps {
+	margin-bottom: 22px;
+}
+.apps__ul:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.apps__li {
+	float: left;
+	margin-left: 5px;
+}
+.apps__li:first-child {
+	margin-left: 0;
+}
+
+/* @end */
+
 /* @group search */
 
 .header .search {
@@ -628,7 +748,12 @@ li {
 	height: 40px;
 	box-sizing: border-box;
 }
-.menu__a:before {
+.menu__a-in {
+	display: block;
+	height: 100%;
+	font-size: 0;
+}
+.menu__a-in:before {
 	content: '';
 	display: inline-block;
 	height: 100%;
@@ -644,32 +769,32 @@ li {
 	color: #fff;
 	pointer-events: none;
 }
-.menu__li:after, .menu__li:before {
+.menu__a:after, .menu__a:before {
  	content: '';
  	position: absolute;
  	z-index: -1;
  	height: 50%;
  	left: 0;
- 	right: 0;
+	width: 100%;
  	border-right: 1px solid #cedcea;
 }
-.menu__li:last-child:after, .menu__li:last-child:before {
+.menu__li:last-child .menu__a:after, .menu__li:last-child .menu__a:before {
 	border-right: none;
 }
-.menu__li:after {
+.menu__a:after {
 	bottom: 0;
 		-webkit-transform: skewX(-30deg);
 		        transform: skewX(-30deg);
 }
-.menu__li:before {
+.menu__a:before {
 	top: 0;
  	-webkit-transform: skewX(30deg);
  	        transform: skewX(30deg);
 }
-.is-active.menu__li:after, .is-active.menu__li:before {
+.is-active .menu__a:after, .is-active .menu__a:before {
 	background: #00b9fe !important;
 }
-.menu__li:hover:after, .menu__li:hover:before {
+.menu__li:hover .menu__a:after, .menu__li:hover .menu__a:before {
 	background: #dce6f0;
 }
  

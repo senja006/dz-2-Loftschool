@@ -76,6 +76,17 @@
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 0
 		},
+	"\/images\/content\/app-store.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1588,
+		"inputAbbreviatedPath": "\/images\/content\/app-store.png",
+		"outputAbbreviatedPath": "\/images\/content\/app-store.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/content\/basket-list.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -83,6 +94,39 @@
 		"initialSize": 1745,
 		"inputAbbreviatedPath": "\/images\/content\/basket-list.jpg",
 		"outputAbbreviatedPath": "\/images\/content\/basket-list.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/content\/google-play.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3117,
+		"inputAbbreviatedPath": "\/images\/content\/google-play.png",
+		"outputAbbreviatedPath": "\/images\/content\/google-play.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/design\/bg-footer.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1243,
+		"inputAbbreviatedPath": "\/images\/design\/bg-footer.png",
+		"outputAbbreviatedPath": "\/images\/design\/bg-footer.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/design\/logo-footer.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3220,
+		"inputAbbreviatedPath": "\/images\/design\/logo-footer.png",
+		"outputAbbreviatedPath": "\/images\/design\/logo-footer.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -98,13 +142,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/design\/sprite-images-2x-s515e12fd8d.png": {
+	"\/images\/design\/sprite-images-2x-s2b75bdec36.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 7380,
-		"inputAbbreviatedPath": "\/images\/design\/sprite-images-2x-s515e12fd8d.png",
-		"outputAbbreviatedPath": "\/images\/design\/sprite-images-2x-s515e12fd8d.png",
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/design\/sprite-images-2x-s2b75bdec36.png",
+		"outputAbbreviatedPath": "\/images\/design\/sprite-images-2x-s2b75bdec36.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -131,6 +175,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/design\/sprite-images-2x\/icon-fb-max-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2372,
+		"inputAbbreviatedPath": "\/images\/design\/sprite-images-2x\/icon-fb-max-2x.png",
+		"outputAbbreviatedPath": "\/images\/design\/sprite-images-2x\/icon-fb-max-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/design\/sprite-images-2x\/icon-map-route-2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -153,6 +208,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/design\/sprite-images-2x\/icon-tw-max-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3056,
+		"inputAbbreviatedPath": "\/images\/design\/sprite-images-2x\/icon-tw-max-2x.png",
+		"outputAbbreviatedPath": "\/images\/design\/sprite-images-2x\/icon-tw-max-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/design\/sprite-images-2x\/icon-vk-2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -164,13 +230,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/design\/sprite-images-s3a3f088bd3.png": {
+	"\/images\/design\/sprite-images-2x\/icon-vk-max-2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 4402,
-		"inputAbbreviatedPath": "\/images\/design\/sprite-images-s3a3f088bd3.png",
-		"outputAbbreviatedPath": "\/images\/design\/sprite-images-s3a3f088bd3.png",
+		"initialSize": 2848,
+		"inputAbbreviatedPath": "\/images\/design\/sprite-images-2x\/icon-vk-max-2x.png",
+		"outputAbbreviatedPath": "\/images\/design\/sprite-images-2x\/icon-vk-max-2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -182,6 +248,17 @@
 		"initialSize": 791,
 		"inputAbbreviatedPath": "\/images\/design\/sprite-images\/icon-basket.png",
 		"outputAbbreviatedPath": "\/images\/design\/sprite-images\/icon-basket.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/design\/sprite-images\/icon-fb-max.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1716,
+		"inputAbbreviatedPath": "\/images\/design\/sprite-images\/icon-fb-max.png",
+		"outputAbbreviatedPath": "\/images\/design\/sprite-images\/icon-fb-max.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -208,6 +285,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/design\/sprite-images\/icon-tw-max.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2177,
+		"inputAbbreviatedPath": "\/images\/design\/sprite-images\/icon-tw-max.png",
+		"outputAbbreviatedPath": "\/images\/design\/sprite-images\/icon-tw-max.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/design\/sprite-images\/icon-tw.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -215,6 +303,17 @@
 		"initialSize": 1338,
 		"inputAbbreviatedPath": "\/images\/design\/sprite-images\/icon-tw.png",
 		"outputAbbreviatedPath": "\/images\/design\/sprite-images\/icon-tw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/design\/sprite-images\/icon-vk-max.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2068,
+		"inputAbbreviatedPath": "\/images\/design\/sprite-images\/icon-vk-max.png",
+		"outputAbbreviatedPath": "\/images\/design\/sprite-images\/icon-vk-max.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

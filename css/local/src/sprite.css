@@ -1,73 +1,124 @@
 .icon--address {
-  background-image: url('../../../images/design/sprite-images-s3a3f088bd3.png');
-  background-position: 0 -63px;
+  background-image: url('../../../images/design/sprite-images-sdb091987f8.png');
+  background-position: 0 -117px;
   background-repeat: no-repeat;
   height: 22px;
   width: 16px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .icon--address {
-    background-image: url('../../../images/design/sprite-images-2x-s515e12fd8d.png');
-    background-size: 26px 137px;
-    background-position: 0 -53px;
+    background-image: url('../../../images/design/sprite-images-2x-s6b747fc0bd.png');
+    background-size: 45px 284px;
+    background-position: 0 -102px;
     height: 23px;
     width: 17px;
   }
 }
 
 .social--min .icon--vk {
-  background-image: url('../../../images/design/sprite-images-s3a3f088bd3.png');
-  background-position: 0 -131px;
+  background-image: url('../../../images/design/sprite-images-sdb091987f8.png');
+  background-position: 0 -293px;
   background-repeat: no-repeat;
   height: 26px;
   width: 26px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .social--min .icon--vk {
-    background-image: url('../../../images/design/sprite-images-2x-s515e12fd8d.png');
-    background-size: 26px 137px;
-    background-position: 0 -111px;
+    background-image: url('../../../images/design/sprite-images-2x-s6b747fc0bd.png');
+    background-size: 45px 284px;
+    background-position: 0 -209px;
     height: 27px;
     width: 27px;
   }
 }
 
 .social--min .icon--tw {
-  background-image: url('../../../images/design/sprite-images-s3a3f088bd3.png');
-  background-position: 0 -95px;
+  background-image: url('../../../images/design/sprite-images-sdb091987f8.png');
+  background-position: 0 -203px;
   background-repeat: no-repeat;
   height: 26px;
   width: 26px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .social--min .icon--tw {
-    background-image: url('../../../images/design/sprite-images-2x-s515e12fd8d.png');
-    background-size: 26px 137px;
-    background-position: 0 -80px;
+    background-image: url('../../../images/design/sprite-images-2x-s6b747fc0bd.png');
+    background-size: 45px 284px;
+    background-position: 0 -129px;
     height: 27px;
     width: 27px;
   }
 }
 
 .social--min .icon--fb {
-  background-image: url('../../../images/design/sprite-images-s3a3f088bd3.png');
-  background-position: 0 -27px;
+  background-image: url('../../../images/design/sprite-images-sdb091987f8.png');
+  background-position: 0 -81px;
   background-repeat: no-repeat;
   height: 26px;
   width: 26px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .social--min .icon--fb {
-    background-image: url('../../../images/design/sprite-images-2x-s515e12fd8d.png');
-    background-size: 26px 137px;
+    background-image: url('../../../images/design/sprite-images-2x-s6b747fc0bd.png');
+    background-size: 45px 284px;
     background-position: 0 -22px;
     height: 27px;
     width: 27px;
   }
 }
 
+.social--max .icon--vk {
+  background-image: url('../../../images/design/sprite-images-sdb091987f8.png');
+  background-position: 0 -239px;
+  background-repeat: no-repeat;
+  height: 44px;
+  width: 45px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .social--max .icon--vk {
+    background-image: url('../../../images/design/sprite-images-2x-s6b747fc0bd.png');
+    background-size: 45px 284px;
+    background-position: 0 -240px;
+    height: 45px;
+    width: 46px;
+  }
+}
+
+.social--max .icon--tw {
+  background-image: url('../../../images/design/sprite-images-sdb091987f8.png');
+  background-position: 0 -149px;
+  background-repeat: no-repeat;
+  height: 44px;
+  width: 45px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .social--max .icon--tw {
+    background-image: url('../../../images/design/sprite-images-2x-s6b747fc0bd.png');
+    background-size: 45px 284px;
+    background-position: 0 -160px;
+    height: 45px;
+    width: 46px;
+  }
+}
+
+.social--max .icon--fb {
+  background-image: url('../../../images/design/sprite-images-sdb091987f8.png');
+  background-position: 0 -27px;
+  background-repeat: no-repeat;
+  height: 44px;
+  width: 45px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .social--max .icon--fb {
+    background-image: url('../../../images/design/sprite-images-2x-s6b747fc0bd.png');
+    background-size: 45px 284px;
+    background-position: 0 -53px;
+    height: 45px;
+    width: 46px;
+  }
+}
+
 .icon--basket {
-  background-image: url('../../../images/design/sprite-images-s3a3f088bd3.png');
+  background-image: url('../../../images/design/sprite-images-sdb091987f8.png');
   background-position: 0 0;
   background-repeat: no-repeat;
   height: 17px;
@@ -75,8 +126,8 @@
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .icon--basket {
-    background-image: url('../../../images/design/sprite-images-2x-s515e12fd8d.png');
-    background-size: 26px 137px;
+    background-image: url('../../../images/design/sprite-images-2x-s6b747fc0bd.png');
+    background-size: 45px 284px;
     background-position: 0 0;
     height: 18px;
     width: 21px;

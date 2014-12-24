@@ -12,6 +12,15 @@
 .social--min .icon--fb {
 	@include s(icon-fb);
 }
+.social--max .icon--vk {
+	@include s(icon-vk-max);
+}
+.social--max .icon--tw {
+	@include s(icon-tw-max);
+}
+.social--max .icon--fb {
+	@include s(icon-fb-max);
+}
 .icon--basket {
 	@include s(icon-basket);
 }
