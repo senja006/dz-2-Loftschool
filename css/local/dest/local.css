@@ -1,0 +1,319 @@
+
+/* @group main */
+
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: "ProximaNovaLight";
+    src: url('../fonts/proxima_nova_light.eot');
+    src: url('../fonts/proxima_nova_light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proxima_nova_light.woff') format('woff'),
+         url('../fonts/proxima_nova_light.ttf') format('truetype');
+}
+.page {
+	width: 100%;
+	min-height: 100%;
+	font-size: 16px;
+}
+.icon {
+	display: inline-block;
+	vertical-align: middle;
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.vertical-align-middle:before {
+	content: "";
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+/* @group animated */
+
+.selector {
+	-webkit-animation-name: name-animated;
+	-o-animation-name: name-animated;
+	animation-name: name-animated;
+	animation-timing-function: linear;
+	
+}
+
+.animated {
+	-webkit-animation-duration: 1s;
+	-o-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	-o-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	-o-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+.animated.infinite {
+	-webkit-animation-iteration-count: infinite;
+	-o-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+}
+.animated.hinge {
+	-webkit-animation-duration: 2s;
+	-o-animation-duration: 2s;
+	animation-duration: 2s;
+}
+
+/* @end */
+
+/* @end */
+
+/* @group pagination */
+
+.pagination {
+    text-align: center;
+}
+.pagination__ul {
+    display: inline-block;
+}
+.pagination__li {
+    font-size: 0;
+    float: left;
+    -webkit-transition: all .1s linear;
+            transition: all .1s linear;
+}
+.pagination__li:before {
+    display: inline-block;
+    height: 100%;
+    content: '';
+    vertical-align: baseline;
+}
+.pagination__a {
+    font-size: 16px;
+    display: table-cell;
+    vertical-align: middle;
+    -webkit-transition: all .1s linear;
+            transition: all .1s linear;
+}
+.pagination__a:before {
+    display: inline-block;
+    height: 100%;
+    content: '';
+    vertical-align: middle;
+}
+.is-active .pagination__a, .pagination__a:hover {
+    color: #fff;
+    background: #00b0bd;
+}
+.pagination__span {
+    font-size: 18px;
+    display: inline-block;
+}
+
+/* @end */
+
+/* @group validation form */
+
+.wrapper-input {
+	position: relative;
+}
+.form-validation .wrapper-input .icon {
+	position: absolute;
+	top: 5px;
+	right: 11px;
+}
+.ui-state-error, .ui-state-valid.error {
+	border-color: #FF5A1F !important;
+}
+.ui-state-valid:not(.button) {
+	border-color: #95c785;
+}
+
+/* @end */
+
+/* @group select */
+
+.select {
+	position: relative;
+	display: block;
+	width: 100px;
+	line-height: 39px;
+	vertical-align: middle;
+	font-size: 14px;
+	width: 297px;
+	height: 41px;
+	background: #fff;
+	font-family: "Ubuntu";
+	font-size: 16px;
+	box-sizing: border-box;
+	float: left;
+}
+.select .value {
+	border: 1px solid #989798;
+	display: block;
+	border-radius: 3px;
+	padding: 0 41px 0 11px;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	cursor: pointer;
+	color: #737373;
+}
+.select .value.placeholder {
+	color: #aaa7a7;
+}
+.select__a {
+  display: block;
+  margin: 0 15px 4px 10px;
+  padding: 3px 0px 4px 5px;
+  color: #737373;
+  font-size: 14px;
+  text-decoration: none;
+  line-height: normal;
+}
+.select__a:hover, .select .is-active {
+  background: #eceef2;
+}
+.scroller {
+  overflow-y: scroll;
+  box-sizing: border-box;
+  padding: 7px 0;
+  height: 100%;
+}
+.scroller::-webkit-scrollbar {
+  width: 0;
+}
+.container-scroller {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  z-index: 10;
+  overflow: hidden;
+  right: 0;
+  height: 124px;
+  border: 1px solid #c9c9c9;
+  background-color: #fff;
+  box-sizing: border-box;
+  margin-top: -1px;
+}
+.container-scroller.is-visible {
+  display: block;
+}
+.scroller__bar-wrapper {
+  position: absolute;
+  top: 5px;
+  right: 2px;
+  bottom: 5px;
+  z-index: 3;
+  width: 9px;
+  border-radius: 5px;
+}
+.scroller__bar {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  width: 100%;
+  border-radius: 5px;
+  background: #4a90e2;
+  pointer-events: auto;
+  opacity: 0.5;
+}
+.select .wrapper-icon {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 39px;
+	text-align: center;
+	font-size: 0;
+	border-left: 1px solid #989798;
+}
+.select .wrapper-icon:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+/* @end */
+/* @group input file */
+
+.input__file-value {
+	height: 39px;
+	border: 1px solid #989798;
+	border-radius: 3px;
+	box-sizing: border-box;
+	color: #989798;
+	font-size: 14px;
+	padding: 0 10px;
+	margin-bottom: 10px;
+	font-style: italic;
+	display: inline-block;
+	outline: none;
+}
+.wrap-input-file {
+	float: left;
+	width: 239px;
+	position: relative;
+	overflow: hidden;
+}
+.wrap-input-file .wrap-icon {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 37px;
+	border: 1px solid #989798;
+	border-radius: 3px;
+	text-align: center;
+	font-size: 0;
+	background: #fff;
+}
+.wrap-input-file .wrap-icon:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+.input__file-value {
+	line-height: 39px;
+	display: block;
+	margin-bottom: 0;
+	font-size: 16px;
+}
+.input__file {
+	position: absolute;
+	z-index: 10;
+	top: -80px;
+	/*left: 0;*/
+	left: 100%;
+	opacity: 0;
+	height: 300%;
+	margin-left: -40px;
+	right: 0;
+	bottom: 0;
+	cursor: pointer !important;
+	outline: none;
+}
+
+/* @end */
+
+/* @group media */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (-moz-min-device-pixel-ratio: 2),
+	only screen and (-o-min-device-pixel-ratio: 3/2),
+	only screen and (-o-min-device-pixel-ratio: 2/1),
+	only screen and (min--moz-device-pixel-ratio: 1.5),
+	only screen and (min-device-pixel-ratio: 1.5),
+	only screen and (min-device-pixel-ratio: 2), 
+	only screen and (min-resolution: 192dpi),
+	only screen and (min-resolution: 2dppx) {
+	
+	
+
+}
+
+/* @end */

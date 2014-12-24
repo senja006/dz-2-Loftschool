@@ -1,16 +1,17 @@
 @import "retina-sprites";
 
-// @mixin s($name) {
-// 	background: sprite($sprite-images, $name);
-// 	height: image-height(sprite-file($sprite-images, $name));
-//  	width: image-width(sprite-file($sprite-images, $name));
-// }
-
-// $sprite-images: sprite-map("sprite-images/*.png", $spacing: 50px);
-
-// .item1 {
-// 	@include s(color-black);
-// 	&:hover {
-// 		@include s(color-gold);
-// 	}
-// }
+.icon--address {
+	@include s(icon-map-route);
+}
+.social--min .icon--vk {
+	@include s(icon-vk);
+}
+.social--min .icon--tw {
+	@include s(icon-tw);
+}
+.social--min .icon--fb {
+	@include s(icon-fb);
+}
+.icon--basket {
+	@include s(icon-basket);
+}

@@ -1,0 +1,84 @@
+.icon--address {
+  background-image: url('../../../images/design/sprite-images-s3a3f088bd3.png');
+  background-position: 0 -63px;
+  background-repeat: no-repeat;
+  height: 22px;
+  width: 16px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .icon--address {
+    background-image: url('../../../images/design/sprite-images-2x-s515e12fd8d.png');
+    background-size: 26px 137px;
+    background-position: 0 -53px;
+    height: 23px;
+    width: 17px;
+  }
+}
+
+.social--min .icon--vk {
+  background-image: url('../../../images/design/sprite-images-s3a3f088bd3.png');
+  background-position: 0 -131px;
+  background-repeat: no-repeat;
+  height: 26px;
+  width: 26px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .social--min .icon--vk {
+    background-image: url('../../../images/design/sprite-images-2x-s515e12fd8d.png');
+    background-size: 26px 137px;
+    background-position: 0 -111px;
+    height: 27px;
+    width: 27px;
+  }
+}
+
+.social--min .icon--tw {
+  background-image: url('../../../images/design/sprite-images-s3a3f088bd3.png');
+  background-position: 0 -95px;
+  background-repeat: no-repeat;
+  height: 26px;
+  width: 26px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .social--min .icon--tw {
+    background-image: url('../../../images/design/sprite-images-2x-s515e12fd8d.png');
+    background-size: 26px 137px;
+    background-position: 0 -80px;
+    height: 27px;
+    width: 27px;
+  }
+}
+
+.social--min .icon--fb {
+  background-image: url('../../../images/design/sprite-images-s3a3f088bd3.png');
+  background-position: 0 -27px;
+  background-repeat: no-repeat;
+  height: 26px;
+  width: 26px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .social--min .icon--fb {
+    background-image: url('../../../images/design/sprite-images-2x-s515e12fd8d.png');
+    background-size: 26px 137px;
+    background-position: 0 -22px;
+    height: 27px;
+    width: 27px;
+  }
+}
+
+.icon--basket {
+  background-image: url('../../../images/design/sprite-images-s3a3f088bd3.png');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  height: 17px;
+  width: 20px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .icon--basket {
+    background-image: url('../../../images/design/sprite-images-2x-s515e12fd8d.png');
+    background-size: 26px 137px;
+    background-position: 0 0;
+    height: 18px;
+    width: 21px;
+  }
+}
