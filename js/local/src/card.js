@@ -29,7 +29,6 @@ var card = (function() {
 	};
 
 	function controlShowNextPhoto() {
-		console.log(blockMovePhoto);
 		if(blockMovePhoto) return false;
 		addBlockMovePhoto();
 		$cardImgLiIsVisible = $cardImgUl.find('.is-visible');
@@ -83,7 +82,6 @@ var card = (function() {
 	};
 
 	function controlShowPrevPhoto() {
-		console.log(blockMovePhoto);
 		if(blockMovePhoto) return false;
 		addBlockMovePhoto();
 		$cardImgLiIsVisible = $cardImgUl.find('.is-visible');
