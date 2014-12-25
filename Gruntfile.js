@@ -20,10 +20,15 @@ module.exports = function(grunt) {
                 src: [
                     // 'js/vendor/*.js', // Все JS в папке vendor
                     'js/vendor/src/jquery-1.11.0.min.js',
-                    'js/vendor/src/jquery.h5validate.js',
-                    'js/vendor/src/jquery.inputmask.js',
                 ],
                 dest: 'js/vendor/dest/vendor.js',
+            },
+            jsLocal: {
+                src: [
+                    // 'js/vendor/*.js', // Все JS в папке vendor
+                    'js/local/src/*.js',
+                ],
+                dest: 'js/local/dest/local.js',
             },
             cssVendor: {
                 src: [
@@ -65,6 +70,10 @@ module.exports = function(grunt) {
             js: {
                 src: 'js/vendor/dest/vendor.js',
                 dest: 'js/vendor/dest/vendor.min.js'
+            },
+            jsLocal: {
+                src: 'js/local/dest/local.js',
+                dest: 'js/local/dest/local.min.js'
             }
         }
 
