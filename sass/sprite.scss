@@ -24,3 +24,9 @@
 .icon--basket {
 	@include s(icon-basket);
 }
+.card__img-list-prev .icon {
+	@include s(icon-nav-left);
+}
+.card__img-list-next .icon {
+	@include s(icon-nav-right);
+}

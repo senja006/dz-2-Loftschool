@@ -1,5 +1,5 @@
 .icon--address {
-  background-image: url('../../../images/design/sprite-images-sdb091987f8.png');
+  background-image: url('../../../images/design/sprite-images-s74ea052582.png');
   background-position: 0 -117px;
   background-repeat: no-repeat;
   height: 22px;
@@ -7,8 +7,8 @@
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .icon--address {
-    background-image: url('../../../images/design/sprite-images-2x-s6b747fc0bd.png');
-    background-size: 45px 284px;
+    background-image: url('../../../images/design/sprite-images-2x-s0656e88001.png');
+    background-size: 45px 362px;
     background-position: 0 -102px;
     height: 23px;
     width: 17px;
@@ -16,41 +16,41 @@
 }
 
 .social--min .icon--vk {
-  background-image: url('../../../images/design/sprite-images-sdb091987f8.png');
-  background-position: 0 -293px;
+  background-image: url('../../../images/design/sprite-images-s74ea052582.png');
+  background-position: 0 -381px;
   background-repeat: no-repeat;
   height: 26px;
   width: 26px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .social--min .icon--vk {
-    background-image: url('../../../images/design/sprite-images-2x-s6b747fc0bd.png');
-    background-size: 45px 284px;
-    background-position: 0 -209px;
+    background-image: url('../../../images/design/sprite-images-2x-s0656e88001.png');
+    background-size: 45px 362px;
+    background-position: 0 -287px;
     height: 27px;
     width: 27px;
   }
 }
 
 .social--min .icon--tw {
-  background-image: url('../../../images/design/sprite-images-sdb091987f8.png');
-  background-position: 0 -203px;
+  background-image: url('../../../images/design/sprite-images-s74ea052582.png');
+  background-position: 0 -291px;
   background-repeat: no-repeat;
   height: 26px;
   width: 26px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .social--min .icon--tw {
-    background-image: url('../../../images/design/sprite-images-2x-s6b747fc0bd.png');
-    background-size: 45px 284px;
-    background-position: 0 -129px;
+    background-image: url('../../../images/design/sprite-images-2x-s0656e88001.png');
+    background-size: 45px 362px;
+    background-position: 0 -207px;
     height: 27px;
     width: 27px;
   }
 }
 
 .social--min .icon--fb {
-  background-image: url('../../../images/design/sprite-images-sdb091987f8.png');
+  background-image: url('../../../images/design/sprite-images-s74ea052582.png');
   background-position: 0 -81px;
   background-repeat: no-repeat;
   height: 26px;
@@ -58,8 +58,8 @@
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .social--min .icon--fb {
-    background-image: url('../../../images/design/sprite-images-2x-s6b747fc0bd.png');
-    background-size: 45px 284px;
+    background-image: url('../../../images/design/sprite-images-2x-s0656e88001.png');
+    background-size: 45px 362px;
     background-position: 0 -22px;
     height: 27px;
     width: 27px;
@@ -67,41 +67,41 @@
 }
 
 .social--max .icon--vk {
-  background-image: url('../../../images/design/sprite-images-sdb091987f8.png');
-  background-position: 0 -239px;
+  background-image: url('../../../images/design/sprite-images-s74ea052582.png');
+  background-position: 0 -327px;
   background-repeat: no-repeat;
   height: 44px;
   width: 45px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .social--max .icon--vk {
-    background-image: url('../../../images/design/sprite-images-2x-s6b747fc0bd.png');
-    background-size: 45px 284px;
-    background-position: 0 -240px;
+    background-image: url('../../../images/design/sprite-images-2x-s0656e88001.png');
+    background-size: 45px 362px;
+    background-position: 0 -318px;
     height: 45px;
     width: 46px;
   }
 }
 
 .social--max .icon--tw {
-  background-image: url('../../../images/design/sprite-images-sdb091987f8.png');
-  background-position: 0 -149px;
+  background-image: url('../../../images/design/sprite-images-s74ea052582.png');
+  background-position: 0 -237px;
   background-repeat: no-repeat;
   height: 44px;
   width: 45px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .social--max .icon--tw {
-    background-image: url('../../../images/design/sprite-images-2x-s6b747fc0bd.png');
-    background-size: 45px 284px;
-    background-position: 0 -160px;
+    background-image: url('../../../images/design/sprite-images-2x-s0656e88001.png');
+    background-size: 45px 362px;
+    background-position: 0 -238px;
     height: 45px;
     width: 46px;
   }
 }
 
 .social--max .icon--fb {
-  background-image: url('../../../images/design/sprite-images-sdb091987f8.png');
+  background-image: url('../../../images/design/sprite-images-s74ea052582.png');
   background-position: 0 -27px;
   background-repeat: no-repeat;
   height: 44px;
@@ -109,8 +109,8 @@
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .social--max .icon--fb {
-    background-image: url('../../../images/design/sprite-images-2x-s6b747fc0bd.png');
-    background-size: 45px 284px;
+    background-image: url('../../../images/design/sprite-images-2x-s0656e88001.png');
+    background-size: 45px 362px;
     background-position: 0 -53px;
     height: 45px;
     width: 46px;
@@ -118,7 +118,7 @@
 }
 
 .icon--basket {
-  background-image: url('../../../images/design/sprite-images-sdb091987f8.png');
+  background-image: url('../../../images/design/sprite-images-s74ea052582.png');
   background-position: 0 0;
   background-repeat: no-repeat;
   height: 17px;
@@ -126,10 +126,44 @@
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .icon--basket {
-    background-image: url('../../../images/design/sprite-images-2x-s6b747fc0bd.png');
-    background-size: 45px 284px;
+    background-image: url('../../../images/design/sprite-images-2x-s0656e88001.png');
+    background-size: 45px 362px;
     background-position: 0 0;
     height: 18px;
     width: 21px;
+  }
+}
+
+.card__img-list-prev .icon {
+  background-image: url('../../../images/design/sprite-images-s74ea052582.png');
+  background-position: 0 -149px;
+  background-repeat: no-repeat;
+  height: 34px;
+  width: 22px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .card__img-list-prev .icon {
+    background-image: url('../../../images/design/sprite-images-2x-s0656e88001.png');
+    background-size: 45px 362px;
+    background-position: 0 -129px;
+    height: 35px;
+    width: 23px;
+  }
+}
+
+.card__img-list-next .icon {
+  background-image: url('../../../images/design/sprite-images-s74ea052582.png');
+  background-position: 0 -193px;
+  background-repeat: no-repeat;
+  height: 34px;
+  width: 22px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .card__img-list-next .icon {
+    background-image: url('../../../images/design/sprite-images-2x-s0656e88001.png');
+    background-size: 45px 362px;
+    background-position: 0 -168px;
+    height: 35px;
+    width: 23px;
   }
 }
