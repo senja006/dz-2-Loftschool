@@ -29,6 +29,7 @@ var card = (function() {
 	};
 
 	function controlShowNextPhoto() {
+		console.log(blockMovePhoto);
 		if(blockMovePhoto) return false;
 		addBlockMovePhoto();
 		$cardImgLiIsVisible = $cardImgUl.find('.is-visible');
@@ -39,9 +40,11 @@ var card = (function() {
 
 	function addBlockMovePhoto() {
 		blockMovePhoto = true;
+		var time = timeBlockMovePhoto;
+		if($('.no-csstransitions').length) time = 10;
 		setTimeout(function() {
 			blockMovePhoto = false;
-		}, timeBlockMovePhoto);
+		}, time);
 	};
 
 	function showNextPhoto() {
@@ -49,6 +52,8 @@ var card = (function() {
 		allNumMove = allNumMove - numMove;
 		var $currentCardImgLi = $cardImgLiIsVisible.first();
 		var counter = 0;
+		var time = 100;
+		if($('.no-csstransitions').length) time = 0;
 		var interval = setInterval(function() {
 			if($currentCardImgLi.hasClass('is-visible')) {
 				$currentCardImgLi.removeClass('is-visible');
@@ -62,16 +67,23 @@ var card = (function() {
 				'transform': 'translateX(' + allNumMove + 'px)',
 				'-webkit-transform': 'translateX(' + allNumMove + 'px)'
 			});
+			if($('.ie-8').length) {
+				$cardImgUl.animate({
+					'margin-left': allNumMove - 10 + 'px'
+				}, 1000);
+				console.log(allNumMove - 10);
+			}
 			if($currentCardImgLi.next().length) {
 				$currentCardImgLi = $currentCardImgLi.next();
 			}else{
 				clearInterval(interval);
 				checkVisibleButtonNav();
 			}
-		}, 100);
+		}, time);
 	};
 
 	function controlShowPrevPhoto() {
+		console.log(blockMovePhoto);
 		if(blockMovePhoto) return false;
 		addBlockMovePhoto();
 		$cardImgLiIsVisible = $cardImgUl.find('.is-visible');
@@ -85,6 +97,8 @@ var card = (function() {
 		allNumMove = allNumMove + numMove;
 		var $currentCardImgLi = $cardImgLiIsVisible.last();
 		var counter = 0;
+		var time = 100;
+		if($('.no-csstransitions').length) time = 0;
 		var interval = setInterval(function() {
 			if($currentCardImgLi.hasClass('is-visible')) {
 				$currentCardImgLi.removeClass('is-visible');
@@ -98,13 +112,18 @@ var card = (function() {
 				'transform': 'translateX(' + allNumMove + 'px)',
 				'-webkit-transform': 'translateX(' + allNumMove + 'px)'
 			});
+			if($('.ie-8').length) {
+				$cardImgUl.animate({
+					'margin-left': allNumMove - 10 + 'px'
+				}, 1000);
+			}
 			if($currentCardImgLi.prev().length) {
 				$currentCardImgLi = $currentCardImgLi.prev();
 			}else{
 				clearInterval(interval);
 				checkVisibleButtonNav();
 			}
-		}, 100);
+		}, time);
 	};
 
 	function setMainPhoto() {

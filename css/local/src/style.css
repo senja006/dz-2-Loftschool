@@ -465,6 +465,9 @@ li {
 	padding-top: 3px;
 	background: linear-gradient(to right, #d9e4ef 0%, #eef2f8 50%,  #d9e4ef 100%);
 }
+.no-cssgradients .header__middle {
+	background: #d9e4ef;
+}
 .header__middle-right {
 	float: right;
 	height: 100%;
@@ -803,6 +806,9 @@ li {
 	box-sizing: border-box;
  	border-right: 1px solid #cedcea;
 }
+.ie-8 .menu__li:first-child .menu__a:after, .ie-8 .menu__li:first-child .menu__a:before {
+	border-left: 1px solid #cedcea;
+}
 .menu__li:last-child .menu__a:after, .menu__li:last-child .menu__a:before {
 	border-right: none;
 }
@@ -972,6 +978,9 @@ li {
 .table td {
 	vertical-align: middle;
 	padding: 6px 10px;
+}
+.ie-8 .table tr {
+	border-bottom: 1px solid #eef2f4;
 }
 
 /* @end */
