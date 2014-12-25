@@ -437,17 +437,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/js\/local\/src\/card.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/local\/src\/card.js",
-		"outputAbbreviatedPath": "\/js\/local\/src\/min\/card-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
-		},
 	"\/js\/local\/src\/pageSize.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -465,39 +454,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/local\/src\/validationForm.js",
 		"outputAbbreviatedPath": "\/js\/local\/src\/min\/validationForm-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
-		},
-	"\/js\/script.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/script.js",
-		"outputAbbreviatedPath": "\/js\/min\/script-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
-		},
-	"\/js\/vendor\/dest\/vendor.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/vendor\/dest\/vendor.js",
-		"outputAbbreviatedPath": "\/js\/vendor\/dest\/min\/vendor-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
-		},
-	"\/js\/vendor\/dest\/vendor.min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/vendor\/dest\/vendor.min.js",
-		"outputAbbreviatedPath": "\/js\/vendor\/dest\/min\/vendor.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
